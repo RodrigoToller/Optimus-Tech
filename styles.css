@@ -1,0 +1,112 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+
+    --cor-background: #ffffff;
+
+    --cor-principal: #8E2424;
+    --cor-secundaria: #fff0ef;
+    --cor-subtexto: #9b9b9b;
+
+    --cor-hover: #b60000cc;
+
+    font-family: 'Oswald', sans-serif; 
+
+}
+
+
+
+.cabecalho{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.secao-logo-nome{
+
+    margin: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: default;
+}
+
+.logo-empresa-classe{
+
+    width: 27px;
+    height: 27px;
+}
+
+.cabecalho-nome-empresa{
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.cabecalho-menu{
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+    color: var(--cor-subtexto);
+
+}
+.cabecalho-menu-item:hover{
+
+    color: var(--cor-principal);
+
+}
+
+
+
+.cabecalho-botoes{
+
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cabecalho-botao{
+
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+
+
+}
+
+.botao-principal{
+
+    background-color: var(--cor-principal);
+    color: var(--cor-background);
+
+
+}
+
+.botao-secundario{
+
+color: var(--cor-subtexto)
+
+}
+
+.cabecalho-botao:hover{
+
+    filter: brightness(0.9);
+    background-color: var(--cor-hover);
+    color: #ffffff;
+
+}
